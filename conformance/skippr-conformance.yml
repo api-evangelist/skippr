@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+source: https://skippr.ai/
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: skippr.ai marketing/security section states "SOC 2 Type II certified"
+- id: iso-27001
+  conforms: true
+  evidence: skippr.ai marketing/security section states "ISO 27001 certified"
+notes: >-
+  Compliance posture is published as marketing claims on skippr.ai; no independent
+  trust center or audit report page was discoverable at trust.skippr.ai / security.skippr.ai
+  at probe time (2026-07-21).

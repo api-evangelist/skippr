@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=skippr
+packages:
+- language: javascript
+  registry: npm
+  name: "@skippr/live-agent-sdk"
+  version: 0.96.0
+  url: https://www.npmjs.com/package/@skippr/live-agent-sdk
+  install: npm install @skippr/live-agent-sdk
+  description: Embeddable Skippr Live AI Employee agent SDK — drop the script into your app and initialize with your keys.
+  first_published: '2026-03-06'
+  official: true
+- language: javascript
+  registry: npm
+  name: "@skippr/extension-mcp-server"
+  version: 0.6.2
+  url: https://www.npmjs.com/package/@skippr/extension-mcp-server
+  install: npx -y @skippr/extension-mcp-server
+  bin: skippr-extension-mcp-server
+  repository: https://github.com/skippr-hq/extension-mcp-server
+  license: MIT
+  description: MCP server that bridges Skippr product review insights (UX, accessibility, product quality) with AI coding agents (Claude Code, Cursor, Copilot, Windsurf).
+  first_published: '2025-10-24'
+  official: true
