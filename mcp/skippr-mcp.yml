@@ -6,22 +6,19 @@ server:
   name: skippr-extension-mcp
   transport: stdio
   install: npx -y @skippr/extension-mcp-server
-  package: "@skippr/extension-mcp-server"
+  package: '@skippr/extension-mcp-server'
   repository: https://github.com/skippr-hq/extension-mcp-server
   license: MIT
-  description: >-
-    Bridges product issues identified by Skippr's browser extension with AI coding agents.
-    Lets an agent discover, understand, and fix UX inconsistencies, accessibility violations,
-    and product-quality problems surfaced by Skippr's AI product reviews. Supported clients:
-    Claude Code, Cursor, VS Code Copilot, Windsurf, Codeium.
+  description: 'Bridges product issues identified by Skippr''s browser extension with AI coding agents.
+    Lets an agent discover, understand, and fix UX inconsistencies, accessibility violations, and product-quality
+    problems surfaced by Skippr''s AI product reviews. Supported clients: Claude Code, Cursor, VS Code
+    Copilot, Windsurf, Codeium.'
   clients:
   - Claude Code
   - Cursor
   - VS Code Copilot
   - Windsurf
   - Codeium
-# Capabilities are described in the published README's usage examples (exact tool
-# names not enumerated in the package README); modeled here from documented usage.
 capabilities:
 - list product issues (filter by project, severity, status/category e.g. accessibility, UX)
 - get details for a specific issue (element metadata, suggested fixes, actionable prompt)
@@ -32,3 +29,8 @@ usage_examples:
 - List all unresolved UX issues for the latest review
 - Get details for issue abc-123 and help me fix it
 - What product issues do I have across all my projects?
+deployment:
+  mode: local-stdio
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
