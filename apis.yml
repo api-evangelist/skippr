@@ -10,6 +10,17 @@ description: >-
   Claude Code, Cursor, and Copilot. Developers integrate via the @skippr/live-agent-sdk npm
   package. Skippr is backed by Bessemer Venture Partners and is SOC 2 Type II and ISO 27001 certified.
 url: https://raw.githubusercontent.com/api-evangelist/skippr/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
